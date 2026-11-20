@@ -12,7 +12,9 @@
 <title>圣经小剧场</title>
 <style>
  html,body{margin:0;min-height:100%;background:#1b1511;color:#f2e3c6;font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif}
- body{display:flex;align-items:center;justify-content:center;padding:calc(24px + env(safe-area-inset-top)) 20px calc(24px + env(safe-area-inset-bottom))}
+ body{padding:calc(24px + env(safe-area-inset-top)) 20px calc(24px + env(safe-area-inset-bottom))}
+
+ body{display:flex;align-items:center;justify-content:center}
  main{width:min(440px,100%)}
  h1{font-weight:600;font-size:32px;margin:0 0 8px;letter-spacing:.04em}
  p{margin:0 0 22px;line-height:1.55;font-size:16px;color:#e4d3b4}
@@ -21,14 +23,16 @@
  a.second{background:transparent;color:#f2e3c6;border:1px solid rgba(255,214,150,.45)}
  a:active{transform:scale(.98)}
  small{display:block;margin-top:16px;line-height:1.5;color:#cbb892;font-size:13px}
+ small a{display:inline;min-height:0;margin:0;font-size:13px;color:#e4d3b4;text-decoration:underline}
 </style></head>
 <body>
 <main>
  <h1>圣经小剧场</h1>
  <p>桌上的小剧场。第一次打开会先把剧场搭起来，之后从书桌和故事盒开始。</p>
- <a class="primary" href="stage/index.html">进入剧场</a>
+ <a class="primary" href="play/adam_and_eve.html">《亚当与夏娃》</a>
+ <a class="second" href="stage/index.html">进入剧场</a>
  <a class="second" href="stage/index.html#opening">再看一遍开场</a>
- <small>请横屏使用。第一次点一下屏幕，声音才会出来。Safari 里选“添加到主屏幕”可以全屏打开。</small>
+ <small>请横屏使用。第一次点一下屏幕，声音才会出来。Safari 里选“添加到主屏幕”可以全屏打开。剧目页连配音和音乐约 24 MB，边演边下载，第一次打开请连着网。台词配音是 AI 合成的。<br><a href="credits.html">致谢与授权</a></small>
 </main>
-<!-- Three.js r128 (MIT) is inlined in stage/index.html. No CDN. -->
+<!-- Three.js r128 (MIT) is inlined in the stage and play pages. No CDN. Licences: credits.html -->
 </body></html>
